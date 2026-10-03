@@ -1,0 +1,208 @@
+# BABY STEPS — RUNNING THE FINAL PROJECT
+
+## STEP 1 — Extract
+
+Extract:
+
+CS700_Mukul_Sorting_Experiment_FINAL.zip
+
+Open the extracted folder in VS Code.
+
+You should see:
+
+src/
+datasets/
+results/
+graphs/
+plot_results.py
+README_VIVA.md
+RUN_STEPS.txt
+
+---
+
+## STEP 2 — OPEN TERMINAL
+
+In VS Code:
+
+Terminal → New Terminal
+
+The terminal should be at:
+
+...\CS700_Mukul_Sorting_Experiment_FINAL>
+
+If it ends with:
+
+...\src>
+
+run:
+
+cd ..
+
+---
+
+## STEP 3 — CHECK G++
+
+Run:
+
+g++ --version
+
+If a version appears, continue.
+
+---
+
+## STEP 4 — COMPILE
+
+Run exactly:
+
+g++ -std=c++17 -O2 src/main.cpp -o sorting.exe
+
+No output/error means compilation succeeded.
+
+---
+
+## STEP 5 — RUN
+
+Run:
+
+.\sorting.exe
+
+---
+
+## STEP 6 — FIRST SMALL CHECK
+
+Choose:
+
+1
+
+This tests only First-Pivot QuickSort.
+
+When asked:
+
+Number of rounds [5]:
+
+enter:
+
+1
+
+This is just a quick sanity check.
+
+---
+
+## STEP 7 — QUICK SORT STUDY
+
+Run the program again.
+
+Choose:
+
+5
+
+Then enter:
+
+5
+
+This runs the COMPLETE experiment.
+
+---
+
+## STEP 8 — WAIT
+
+You will see messages such as:
+
+--- random input | n = 100000 ---
+[RUN ] Merge Sort | 5 rounds
+[DONE] Merge Sort
+[RUN ] Quick - Random Pivot | 5 rounds
+[DONE] Quick - Random Pivot
+
+For Bubble and Insertion at large sizes:
+
+[SKIP] Bubble Sort : O(n^2), n > 20000
+
+This is expected.
+
+---
+
+## STEP 9 — CHECK CSV
+
+After completion:
+
+Open:
+
+results/results.csv
+
+If the file contains rows, the C++ experiment worked.
+
+---
+
+## STEP 10 — INSTALL PYTHON LIBRARIES
+
+Only now do this.
+
+If normal Windows Python is installed:
+
+python -m pip install pandas matplotlib
+
+If that gives an MSYS2 "externally-managed-environment" error,
+DO NOT use --break-system-packages.
+
+Instead use normal Windows Python / the Python interpreter selected
+by VS Code.
+
+---
+
+## STEP 11 — GENERATE GRAPHS
+
+Run:
+
+python plot_results.py
+
+Expected message:
+
+Graphs created in graphs/
+
+---
+
+## STEP 12 — OPEN GRAPHS
+
+Open the graphs/ folder.
+
+QuickSort study:
+
+quick_random.png
+quick_ascending.png
+quick_descending.png
+
+Overall comparison:
+
+overall_random.png
+overall_ascending.png
+overall_descending.png
+
+Comparison counts:
+
+comparisons_random.png
+
+---
+
+## STEP 13 — WHAT TO SUBMIT
+
+Use the assignment's required submission format.
+
+The important experimental files are:
+
+src/main.cpp
+datasets/
+results/results.csv
+graphs/
+
+Do not blindly submit files that your instructor did not ask for.
+
+---
+
+## IF YOU GET AN ERROR
+
+Do NOT randomly change commands.
+
+Copy the error from the terminal and send it.
+
+Especially send the last 15-20 lines.

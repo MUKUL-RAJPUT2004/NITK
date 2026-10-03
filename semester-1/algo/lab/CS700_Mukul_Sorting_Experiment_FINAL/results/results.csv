@@ -1,0 +1,661 @@
+algorithm,input_type,input_size,round,time_ms,comparisons
+Quick - First Pivot,random,10000,1,0.433600,155003
+Quick - First Pivot,random,10000,2,0.493900,155003
+Quick - First Pivot,random,10000,3,0.465200,155003
+Quick - First Pivot,random,10000,4,0.431200,155003
+Quick - First Pivot,random,10000,5,0.463300,155003
+Quick - First Pivot,random,25000,1,1.192300,435314
+Quick - First Pivot,random,25000,2,1.216600,435314
+Quick - First Pivot,random,25000,3,1.194500,435314
+Quick - First Pivot,random,25000,4,1.198100,435314
+Quick - First Pivot,random,25000,5,1.205400,435314
+Quick - First Pivot,random,50000,1,3.061000,891350
+Quick - First Pivot,random,50000,2,3.025600,891350
+Quick - First Pivot,random,50000,3,3.030500,891350
+Quick - First Pivot,random,50000,4,2.753100,891350
+Quick - First Pivot,random,50000,5,2.636800,891350
+Quick - First Pivot,random,100000,1,5.370400,2045433
+Quick - First Pivot,random,100000,2,5.236000,2045433
+Quick - First Pivot,random,100000,3,5.235300,2045433
+Quick - First Pivot,random,100000,4,5.172300,2045433
+Quick - First Pivot,random,100000,5,5.381300,2045433
+Quick - First Pivot,random,200000,1,10.869600,4277512
+Quick - First Pivot,random,200000,2,11.117600,4277512
+Quick - First Pivot,random,200000,3,10.406200,4277512
+Quick - First Pivot,random,200000,4,10.803200,4277512
+Quick - First Pivot,random,200000,5,10.498100,4277512
+Quick - First Pivot,random,500000,1,28.098200,11311779
+Quick - First Pivot,random,500000,2,28.020700,11311779
+Quick - First Pivot,random,500000,3,29.502400,11311779
+Quick - First Pivot,random,500000,4,28.094000,11311779
+Quick - First Pivot,random,500000,5,28.068400,11311779
+Quick - First Pivot,ascending,10000,1,16.359300,49995000
+Quick - First Pivot,ascending,10000,2,15.755000,49995000
+Quick - First Pivot,ascending,10000,3,15.486400,49995000
+Quick - First Pivot,ascending,10000,4,15.544700,49995000
+Quick - First Pivot,ascending,10000,5,15.466300,49995000
+Quick - First Pivot,ascending,25000,1,97.725300,312487500
+Quick - First Pivot,ascending,25000,2,99.106300,312487500
+Quick - First Pivot,ascending,25000,3,96.770700,312487500
+Quick - First Pivot,ascending,25000,4,96.671600,312487500
+Quick - First Pivot,ascending,25000,5,97.349800,312487500
+Quick - First Pivot,ascending,50000,1,390.344600,1249975000
+Quick - First Pivot,ascending,50000,2,402.610700,1249975000
+Quick - First Pivot,ascending,50000,3,400.000700,1249975000
+Quick - First Pivot,ascending,50000,4,390.212400,1249975000
+Quick - First Pivot,ascending,50000,5,404.653000,1249975000
+Quick - First Pivot,ascending,100000,1,1686.033800,4999950000
+Quick - First Pivot,ascending,100000,2,1674.438600,4999950000
+Quick - First Pivot,ascending,100000,3,1660.180000,4999950000
+Quick - First Pivot,ascending,100000,4,1667.062300,4999950000
+Quick - First Pivot,ascending,100000,5,1610.379800,4999950000
+Quick - First Pivot,ascending,200000,1,6607.723300,19999900000
+Quick - First Pivot,ascending,200000,2,6598.559700,19999900000
+Quick - First Pivot,ascending,200000,3,6292.101600,19999900000
+Quick - First Pivot,ascending,200000,4,6277.984100,19999900000
+Quick - First Pivot,ascending,200000,5,6342.777200,19999900000
+Quick - First Pivot,ascending,500000,1,40420.908900,124999750000
+Quick - First Pivot,ascending,500000,2,40058.343500,124999750000
+Quick - First Pivot,ascending,500000,3,40149.129200,124999750000
+Quick - First Pivot,ascending,500000,4,42287.120300,124999750000
+Quick - First Pivot,ascending,500000,5,40879.485100,124999750000
+Quick - First Pivot,descending,10000,1,26.701500,49995000
+Quick - First Pivot,descending,10000,2,25.015500,49995000
+Quick - First Pivot,descending,10000,3,24.878500,49995000
+Quick - First Pivot,descending,10000,4,25.296900,49995000
+Quick - First Pivot,descending,10000,5,24.706500,49995000
+Quick - First Pivot,descending,25000,1,154.295300,312487500
+Quick - First Pivot,descending,25000,2,154.411600,312487500
+Quick - First Pivot,descending,25000,3,151.534700,312487500
+Quick - First Pivot,descending,25000,4,160.413700,312487500
+Quick - First Pivot,descending,25000,5,161.322300,312487500
+Quick - First Pivot,descending,50000,1,619.251800,1249975000
+Quick - First Pivot,descending,50000,2,631.970200,1249975000
+Quick - First Pivot,descending,50000,3,621.014400,1249975000
+Quick - First Pivot,descending,50000,4,613.513200,1249975000
+Quick - First Pivot,descending,50000,5,708.839100,1249975000
+Quick - First Pivot,descending,100000,1,2494.319600,4999950000
+Quick - First Pivot,descending,100000,2,2450.035800,4999950000
+Quick - First Pivot,descending,100000,3,2448.170100,4999950000
+Quick - First Pivot,descending,100000,4,2439.721100,4999950000
+Quick - First Pivot,descending,100000,5,2439.972200,4999950000
+Quick - First Pivot,descending,200000,1,9827.434600,19999900000
+Quick - First Pivot,descending,200000,2,9985.076500,19999900000
+Quick - First Pivot,descending,200000,3,9799.576000,19999900000
+Quick - First Pivot,descending,200000,4,9754.464200,19999900000
+Quick - First Pivot,descending,200000,5,9873.086900,19999900000
+Quick - First Pivot,descending,500000,1,61444.754700,124999750000
+Quick - First Pivot,descending,500000,2,61303.951200,124999750000
+Quick - First Pivot,descending,500000,3,61356.916200,124999750000
+Quick - First Pivot,descending,500000,4,65003.245200,124999750000
+Quick - First Pivot,descending,500000,5,63389.172500,124999750000
+Bubble Sort,random,10000,1,50.021000,49994594
+Bubble Sort,random,10000,2,49.355700,49994594
+Bubble Sort,random,10000,3,48.704000,49994594
+Bubble Sort,random,10000,4,49.366100,49994594
+Bubble Sort,random,10000,5,47.151700,49994594
+Insertion Sort,random,10000,1,9.921400,24836883
+Insertion Sort,random,10000,2,9.984900,24836883
+Insertion Sort,random,10000,3,10.805000,24836883
+Insertion Sort,random,10000,4,10.293900,24836883
+Insertion Sort,random,10000,5,10.088200,24836883
+Merge Sort,random,10000,1,1.180200,120496
+Merge Sort,random,10000,2,1.156400,120496
+Merge Sort,random,10000,3,1.149600,120496
+Merge Sort,random,10000,4,1.137200,120496
+Merge Sort,random,10000,5,1.367300,120496
+Quick - First Pivot,random,10000,1,0.425200,155003
+Quick - First Pivot,random,10000,2,0.422800,155003
+Quick - First Pivot,random,10000,3,0.401500,155003
+Quick - First Pivot,random,10000,4,0.397600,155003
+Quick - First Pivot,random,10000,5,0.391800,155003
+Quick - Random Pivot,random,10000,1,0.527100,159962
+Quick - Random Pivot,random,10000,2,0.487300,168692
+Quick - Random Pivot,random,10000,3,0.473400,165542
+Quick - Random Pivot,random,10000,4,0.486800,151517
+Quick - Random Pivot,random,10000,5,0.481700,163085
+Quick - Median of Three,random,10000,1,0.491000,132670
+Quick - Median of Three,random,10000,2,0.485400,132670
+Quick - Median of Three,random,10000,3,0.485800,132670
+Quick - Median of Three,random,10000,4,0.470700,132670
+Quick - Median of Three,random,10000,5,0.470300,132670
+Heap Sort,random,10000,1,0.643200,235508
+Heap Sort,random,10000,2,0.692400,235508
+Heap Sort,random,10000,3,0.829900,235508
+Heap Sort,random,10000,4,0.754600,235508
+Heap Sort,random,10000,5,0.673900,235508
+Radix Sort,random,10000,1,0.289000,0
+Radix Sort,random,10000,2,0.278600,0
+Radix Sort,random,10000,3,0.287500,0
+Radix Sort,random,10000,4,0.278600,0
+Radix Sort,random,10000,5,0.277200,0
+Merge Sort,random,25000,1,3.345400,334171
+Merge Sort,random,25000,2,3.292600,334171
+Merge Sort,random,25000,3,3.318400,334171
+Merge Sort,random,25000,4,3.332300,334171
+Merge Sort,random,25000,5,3.249400,334171
+Quick - First Pivot,random,25000,1,1.207900,435314
+Quick - First Pivot,random,25000,2,1.313900,435314
+Quick - First Pivot,random,25000,3,1.241300,435314
+Quick - First Pivot,random,25000,4,1.206400,435314
+Quick - First Pivot,random,25000,5,1.227200,435314
+Quick - Random Pivot,random,25000,1,1.434500,435742
+Quick - Random Pivot,random,25000,2,1.419200,445885
+Quick - Random Pivot,random,25000,3,1.593000,420246
+Quick - Random Pivot,random,25000,4,1.429100,420779
+Quick - Random Pivot,random,25000,5,1.439500,446255
+Quick - Median of Three,random,25000,1,1.335000,372045
+Quick - Median of Three,random,25000,2,1.368400,372045
+Quick - Median of Three,random,25000,3,1.315400,372045
+Quick - Median of Three,random,25000,4,1.302900,372045
+Quick - Median of Three,random,25000,5,1.302200,372045
+Heap Sort,random,25000,1,1.840200,654781
+Heap Sort,random,25000,2,1.894200,654781
+Heap Sort,random,25000,3,1.835000,654781
+Heap Sort,random,25000,4,1.808200,654781
+Heap Sort,random,25000,5,1.799900,654781
+Radix Sort,random,25000,1,0.698600,0
+Radix Sort,random,25000,2,0.701300,0
+Radix Sort,random,25000,3,0.711000,0
+Radix Sort,random,25000,4,0.738300,0
+Radix Sort,random,25000,5,0.689000,0
+Merge Sort,random,50000,1,6.793300,718123
+Merge Sort,random,50000,2,6.719600,718123
+Merge Sort,random,50000,3,7.056300,718123
+Merge Sort,random,50000,4,6.435300,718123
+Merge Sort,random,50000,5,6.441600,718123
+Quick - First Pivot,random,50000,1,2.351100,891350
+Quick - First Pivot,random,50000,2,2.328400,891350
+Quick - First Pivot,random,50000,3,2.335100,891350
+Quick - First Pivot,random,50000,4,2.319500,891350
+Quick - First Pivot,random,50000,5,2.317900,891350
+Quick - Random Pivot,random,50000,1,3.703600,923414
+Quick - Random Pivot,random,50000,2,2.926200,919132
+Quick - Random Pivot,random,50000,3,3.128800,937189
+Quick - Random Pivot,random,50000,4,3.258200,934482
+Quick - Random Pivot,random,50000,5,3.021900,915196
+Quick - Median of Three,random,50000,1,2.758900,783974
+Quick - Median of Three,random,50000,2,2.782700,783974
+Quick - Median of Three,random,50000,3,2.729900,783974
+Quick - Median of Three,random,50000,4,2.734800,783974
+Quick - Median of Three,random,50000,5,2.778200,783974
+Heap Sort,random,50000,1,3.811000,1409715
+Heap Sort,random,50000,2,3.840900,1409715
+Heap Sort,random,50000,3,3.958600,1409715
+Heap Sort,random,50000,4,3.795500,1409715
+Heap Sort,random,50000,5,3.817800,1409715
+Radix Sort,random,50000,1,1.332700,0
+Radix Sort,random,50000,2,1.355000,0
+Radix Sort,random,50000,3,1.254100,0
+Radix Sort,random,50000,4,1.315500,0
+Radix Sort,random,50000,5,1.312700,0
+Merge Sort,random,100000,1,13.799100,1536460
+Merge Sort,random,100000,2,12.899400,1536460
+Merge Sort,random,100000,3,12.212600,1536460
+Merge Sort,random,100000,4,12.356000,1536460
+Merge Sort,random,100000,5,12.371200,1536460
+Quick - First Pivot,random,100000,1,4.932600,2045433
+Quick - First Pivot,random,100000,2,5.084600,2045433
+Quick - First Pivot,random,100000,3,5.219400,2045433
+Quick - First Pivot,random,100000,4,5.084000,2045433
+Quick - First Pivot,random,100000,5,5.007900,2045433
+Quick - Random Pivot,random,100000,1,5.764000,2157609
+Quick - Random Pivot,random,100000,2,5.713300,1995492
+Quick - Random Pivot,random,100000,3,7.185400,2036996
+Quick - Random Pivot,random,100000,4,6.094700,1993300
+Quick - Random Pivot,random,100000,5,6.029700,1973013
+Quick - Median of Three,random,100000,1,5.343600,1717051
+Quick - Median of Three,random,100000,2,5.315700,1717051
+Quick - Median of Three,random,100000,3,5.548800,1717051
+Quick - Median of Three,random,100000,4,6.311100,1717051
+Quick - Median of Three,random,100000,5,5.865200,1717051
+Heap Sort,random,100000,1,8.713700,3019641
+Heap Sort,random,100000,2,8.539100,3019641
+Heap Sort,random,100000,3,8.192300,3019641
+Heap Sort,random,100000,4,7.897400,3019641
+Heap Sort,random,100000,5,7.746600,3019641
+Radix Sort,random,100000,1,2.934700,0
+Radix Sort,random,100000,2,3.115400,0
+Radix Sort,random,100000,3,3.071000,0
+Radix Sort,random,100000,4,3.068500,0
+Radix Sort,random,100000,5,3.078400,0
+Merge Sort,random,200000,1,27.089800,3273018
+Merge Sort,random,200000,2,26.519200,3273018
+Merge Sort,random,200000,3,25.974400,3273018
+Merge Sort,random,200000,4,25.960300,3273018
+Merge Sort,random,200000,5,25.446100,3273018
+Quick - First Pivot,random,200000,1,10.877100,4277512
+Quick - First Pivot,random,200000,2,11.090900,4277512
+Quick - First Pivot,random,200000,3,10.349800,4277512
+Quick - First Pivot,random,200000,4,10.298200,4277512
+Quick - First Pivot,random,200000,5,10.895700,4277512
+Quick - Random Pivot,random,200000,1,12.891500,4149555
+Quick - Random Pivot,random,200000,2,12.342400,4233054
+Quick - Random Pivot,random,200000,3,12.146000,4457053
+Quick - Random Pivot,random,200000,4,11.981500,4484762
+Quick - Random Pivot,random,200000,5,12.134900,4305054
+Quick - Median of Three,random,200000,1,11.865100,3773919
+Quick - Median of Three,random,200000,2,11.574600,3773919
+Quick - Median of Three,random,200000,3,11.727100,3773919
+Quick - Median of Three,random,200000,4,12.110100,3773919
+Quick - Median of Three,random,200000,5,11.564900,3773919
+Heap Sort,random,200000,1,17.493400,6438532
+Heap Sort,random,200000,2,16.649500,6438532
+Heap Sort,random,200000,3,16.467100,6438532
+Heap Sort,random,200000,4,16.648500,6438532
+Heap Sort,random,200000,5,16.765300,6438532
+Radix Sort,random,200000,1,6.619300,0
+Radix Sort,random,200000,2,6.047000,0
+Radix Sort,random,200000,3,6.075500,0
+Radix Sort,random,200000,4,6.186500,0
+Radix Sort,random,200000,5,6.003500,0
+Merge Sort,random,500000,1,68.902900,8836820
+Merge Sort,random,500000,2,67.968600,8836820
+Merge Sort,random,500000,3,67.767000,8836820
+Merge Sort,random,500000,4,67.421000,8836820
+Merge Sort,random,500000,5,67.632100,8836820
+Quick - First Pivot,random,500000,1,28.395300,11311779
+Quick - First Pivot,random,500000,2,28.316900,11311779
+Quick - First Pivot,random,500000,3,27.924500,11311779
+Quick - First Pivot,random,500000,4,28.020000,11311779
+Quick - First Pivot,random,500000,5,28.474300,11311779
+Quick - Random Pivot,random,500000,1,33.045700,11630004
+Quick - Random Pivot,random,500000,2,32.819600,11155928
+Quick - Random Pivot,random,500000,3,32.171000,11522939
+Quick - Random Pivot,random,500000,4,32.307700,12046915
+Quick - Random Pivot,random,500000,5,32.468600,11639984
+Quick - Median of Three,random,500000,1,30.286600,9932448
+Quick - Median of Three,random,500000,2,30.061000,9932448
+Quick - Median of Three,random,500000,3,30.081500,9932448
+Quick - Median of Three,random,500000,4,30.073700,9932448
+Quick - Median of Three,random,500000,5,30.174500,9932448
+Heap Sort,random,500000,1,48.204900,17396753
+Heap Sort,random,500000,2,46.398700,17396753
+Heap Sort,random,500000,3,46.383100,17396753
+Heap Sort,random,500000,4,46.120600,17396753
+Heap Sort,random,500000,5,46.218900,17396753
+Radix Sort,random,500000,1,16.690300,0
+Radix Sort,random,500000,2,17.294900,0
+Radix Sort,random,500000,3,17.185100,0
+Radix Sort,random,500000,4,16.669200,0
+Radix Sort,random,500000,5,16.718300,0
+Bubble Sort,ascending,10000,1,0.004100,9999
+Bubble Sort,ascending,10000,2,0.003800,9999
+Bubble Sort,ascending,10000,3,0.003900,9999
+Bubble Sort,ascending,10000,4,0.003800,9999
+Bubble Sort,ascending,10000,5,0.003900,9999
+Insertion Sort,ascending,10000,1,0.016700,9999
+Insertion Sort,ascending,10000,2,0.016400,9999
+Insertion Sort,ascending,10000,3,0.016300,9999
+Insertion Sort,ascending,10000,4,0.016100,9999
+Insertion Sort,ascending,10000,5,0.016400,9999
+Merge Sort,ascending,10000,1,0.763000,69008
+Merge Sort,ascending,10000,2,0.760300,69008
+Merge Sort,ascending,10000,3,0.761900,69008
+Merge Sort,ascending,10000,4,0.736600,69008
+Merge Sort,ascending,10000,5,0.736600,69008
+Quick - First Pivot,ascending,10000,1,18.139600,49995000
+Quick - First Pivot,ascending,10000,2,16.768700,49995000
+Quick - First Pivot,ascending,10000,3,15.600800,49995000
+Quick - First Pivot,ascending,10000,4,15.518200,49995000
+Quick - First Pivot,ascending,10000,5,15.579000,49995000
+Quick - Random Pivot,ascending,10000,1,0.253600,166021
+Quick - Random Pivot,ascending,10000,2,0.237200,160118
+Quick - Random Pivot,ascending,10000,3,0.226800,147785
+Quick - Random Pivot,ascending,10000,4,0.237800,151478
+Quick - Random Pivot,ascending,10000,5,0.234700,151070
+Quick - Median of Three,ascending,10000,1,0.097400,113631
+Quick - Median of Three,ascending,10000,2,0.091400,113631
+Quick - Median of Three,ascending,10000,3,0.091000,113631
+Quick - Median of Three,ascending,10000,4,0.090800,113631
+Quick - Median of Three,ascending,10000,5,0.091100,113631
+Heap Sort,ascending,10000,1,0.470400,244460
+Heap Sort,ascending,10000,2,0.426300,244460
+Heap Sort,ascending,10000,3,0.420700,244460
+Heap Sort,ascending,10000,4,0.400200,244460
+Heap Sort,ascending,10000,5,0.413700,244460
+Radix Sort,ascending,10000,1,0.284500,0
+Radix Sort,ascending,10000,2,0.277100,0
+Radix Sort,ascending,10000,3,0.254200,0
+Radix Sort,ascending,10000,4,0.260600,0
+Radix Sort,ascending,10000,5,0.260600,0
+Merge Sort,ascending,25000,1,3.799700,188476
+Merge Sort,ascending,25000,2,2.849800,188476
+Merge Sort,ascending,25000,3,2.060700,188476
+Merge Sort,ascending,25000,4,2.067500,188476
+Merge Sort,ascending,25000,5,2.084600,188476
+Quick - First Pivot,ascending,25000,1,101.256300,312487500
+Quick - First Pivot,ascending,25000,2,96.888200,312487500
+Quick - First Pivot,ascending,25000,3,96.805300,312487500
+Quick - First Pivot,ascending,25000,4,97.189500,312487500
+Quick - First Pivot,ascending,25000,5,97.161600,312487500
+Quick - Random Pivot,ascending,25000,1,0.619900,430901
+Quick - Random Pivot,ascending,25000,2,0.610700,441256
+Quick - Random Pivot,ascending,25000,3,0.611700,444651
+Quick - Random Pivot,ascending,25000,4,0.599000,419895
+Quick - Random Pivot,ascending,25000,5,0.611700,440696
+Quick - Median of Three,ascending,25000,1,0.288800,317248
+Quick - Median of Three,ascending,25000,2,0.281400,317248
+Quick - Median of Three,ascending,25000,3,0.278900,317248
+Quick - Median of Three,ascending,25000,4,0.263400,317248
+Quick - Median of Three,ascending,25000,5,0.260000,317248
+Heap Sort,ascending,25000,1,1.174400,677688
+Heap Sort,ascending,25000,2,1.114900,677688
+Heap Sort,ascending,25000,3,1.205700,677688
+Heap Sort,ascending,25000,4,1.141900,677688
+Heap Sort,ascending,25000,5,1.144100,677688
+Radix Sort,ascending,25000,1,0.730900,0
+Radix Sort,ascending,25000,2,0.693100,0
+Radix Sort,ascending,25000,3,0.660200,0
+Radix Sort,ascending,25000,4,0.701200,0
+Radix Sort,ascending,25000,5,0.821500,0
+Merge Sort,ascending,50000,1,4.127000,401952
+Merge Sort,ascending,50000,2,4.127500,401952
+Merge Sort,ascending,50000,3,4.212500,401952
+Merge Sort,ascending,50000,4,4.570200,401952
+Merge Sort,ascending,50000,5,4.191400,401952
+Quick - First Pivot,ascending,50000,1,413.856200,1249975000
+Quick - First Pivot,ascending,50000,2,431.022500,1249975000
+Quick - First Pivot,ascending,50000,3,415.592500,1249975000
+Quick - First Pivot,ascending,50000,4,401.812100,1249975000
+Quick - First Pivot,ascending,50000,5,390.647900,1249975000
+Quick - Random Pivot,ascending,50000,1,1.273400,983294
+Quick - Random Pivot,ascending,50000,2,1.258300,980584
+Quick - Random Pivot,ascending,50000,3,1.270300,943336
+Quick - Random Pivot,ascending,50000,4,1.233200,912524
+Quick - Random Pivot,ascending,50000,5,1.236600,909270
+Quick - Median of Three,ascending,50000,1,0.563700,684481
+Quick - Median of Three,ascending,50000,2,0.556200,684481
+Quick - Median of Three,ascending,50000,3,0.700300,684481
+Quick - Median of Three,ascending,50000,4,0.703500,684481
+Quick - Median of Three,ascending,50000,5,0.571400,684481
+Heap Sort,ascending,50000,1,2.575600,1455438
+Heap Sort,ascending,50000,2,2.384700,1455438
+Heap Sort,ascending,50000,3,2.317100,1455438
+Heap Sort,ascending,50000,4,2.442600,1455438
+Heap Sort,ascending,50000,5,2.303700,1455438
+Radix Sort,ascending,50000,1,1.254200,0
+Radix Sort,ascending,50000,2,1.343900,0
+Radix Sort,ascending,50000,3,1.466800,0
+Radix Sort,ascending,50000,4,1.326700,0
+Radix Sort,ascending,50000,5,1.385800,0
+Merge Sort,ascending,100000,1,8.318600,853904
+Merge Sort,ascending,100000,2,8.434900,853904
+Merge Sort,ascending,100000,3,8.209900,853904
+Merge Sort,ascending,100000,4,8.295600,853904
+Merge Sort,ascending,100000,5,8.158400,853904
+Quick - First Pivot,ascending,100000,1,1591.725700,4999950000
+Quick - First Pivot,ascending,100000,2,1560.928100,4999950000
+Quick - First Pivot,ascending,100000,3,1560.450800,4999950000
+Quick - First Pivot,ascending,100000,4,1566.831700,4999950000
+Quick - First Pivot,ascending,100000,5,1569.269600,4999950000
+Quick - Random Pivot,ascending,100000,1,2.583900,2129333
+Quick - Random Pivot,ascending,100000,2,2.681200,2076723
+Quick - Random Pivot,ascending,100000,3,2.555300,2024552
+Quick - Random Pivot,ascending,100000,4,2.740900,2086348
+Quick - Random Pivot,ascending,100000,5,2.729400,1998473
+Quick - Median of Three,ascending,100000,1,1.337700,1468946
+Quick - Median of Three,ascending,100000,2,1.151600,1468946
+Quick - Median of Three,ascending,100000,3,1.167800,1468946
+Quick - Median of Three,ascending,100000,4,1.134900,1468946
+Quick - Median of Three,ascending,100000,5,1.138400,1468946
+Heap Sort,ascending,100000,1,4.827600,3112517
+Heap Sort,ascending,100000,2,4.923300,3112517
+Heap Sort,ascending,100000,3,4.915000,3112517
+Heap Sort,ascending,100000,4,5.264800,3112517
+Heap Sort,ascending,100000,5,4.806500,3112517
+Radix Sort,ascending,100000,1,3.422700,0
+Radix Sort,ascending,100000,2,3.075400,0
+Radix Sort,ascending,100000,3,3.064400,0
+Radix Sort,ascending,100000,4,2.942500,0
+Radix Sort,ascending,100000,5,3.240100,0
+Merge Sort,ascending,200000,1,17.058300,1807808
+Merge Sort,ascending,200000,2,15.922300,1807808
+Merge Sort,ascending,200000,3,15.623300,1807808
+Merge Sort,ascending,200000,4,15.831000,1807808
+Merge Sort,ascending,200000,5,15.669400,1807808
+Quick - First Pivot,ascending,200000,1,6358.185400,19999900000
+Quick - First Pivot,ascending,200000,2,6280.181300,19999900000
+Quick - First Pivot,ascending,200000,3,6272.826300,19999900000
+Quick - First Pivot,ascending,200000,4,6420.961200,19999900000
+Quick - First Pivot,ascending,200000,5,6272.734800,19999900000
+Quick - Random Pivot,ascending,200000,1,5.632900,4760849
+Quick - Random Pivot,ascending,200000,2,6.108100,4632237
+Quick - Random Pivot,ascending,200000,3,5.886700,4780384
+Quick - Random Pivot,ascending,200000,4,5.886200,4443738
+Quick - Random Pivot,ascending,200000,5,5.860000,4930628
+Quick - Median of Three,ascending,200000,1,2.330400,3137875
+Quick - Median of Three,ascending,200000,2,2.341000,3137875
+Quick - Median of Three,ascending,200000,3,2.263700,3137875
+Quick - Median of Three,ascending,200000,4,2.400700,3137875
+Quick - Median of Three,ascending,200000,5,2.325400,3137875
+Heap Sort,ascending,200000,1,16.374300,6626912
+Heap Sort,ascending,200000,2,14.347800,6626912
+Heap Sort,ascending,200000,3,13.923700,6626912
+Heap Sort,ascending,200000,4,10.401300,6626912
+Heap Sort,ascending,200000,5,9.546600,6626912
+Radix Sort,ascending,200000,1,6.302700,0
+Radix Sort,ascending,200000,2,6.242500,0
+Radix Sort,ascending,200000,3,5.981100,0
+Radix Sort,ascending,200000,4,5.888700,0
+Radix Sort,ascending,200000,5,5.850800,0
+Merge Sort,ascending,500000,1,41.502200,4783216
+Merge Sort,ascending,500000,2,41.436800,4783216
+Merge Sort,ascending,500000,3,41.006800,4783216
+Merge Sort,ascending,500000,4,40.619300,4783216
+Merge Sort,ascending,500000,5,40.601900,4783216
+Quick - First Pivot,ascending,500000,1,40089.947100,124999750000
+Quick - First Pivot,ascending,500000,2,40630.478300,124999750000
+Quick - First Pivot,ascending,500000,3,39956.543500,124999750000
+Quick - First Pivot,ascending,500000,4,40563.110200,124999750000
+Quick - First Pivot,ascending,500000,5,40654.813800,124999750000
+Quick - Random Pivot,ascending,500000,1,16.416000,17115563
+Quick - Random Pivot,ascending,500000,2,15.769100,15656802
+Quick - Random Pivot,ascending,500000,3,15.873200,15936787
+Quick - Random Pivot,ascending,500000,4,16.132000,16278524
+Quick - Random Pivot,ascending,500000,5,15.868500,15139638
+Quick - Median of Three,ascending,500000,1,6.159300,8475732
+Quick - Median of Three,ascending,500000,2,6.076100,8475732
+Quick - Median of Three,ascending,500000,3,6.429200,8475732
+Quick - Median of Three,ascending,500000,4,6.072200,8475732
+Quick - Median of Three,ascending,500000,5,6.261900,8475732
+Heap Sort,ascending,500000,1,24.560000,17837785
+Heap Sort,ascending,500000,2,24.369800,17837785
+Heap Sort,ascending,500000,3,24.199600,17837785
+Heap Sort,ascending,500000,4,24.627400,17837785
+Heap Sort,ascending,500000,5,24.337700,17837785
+Radix Sort,ascending,500000,1,17.654900,0
+Radix Sort,ascending,500000,2,16.753800,0
+Radix Sort,ascending,500000,3,17.214400,0
+Radix Sort,ascending,500000,4,16.700100,0
+Radix Sort,ascending,500000,5,17.119000,0
+Bubble Sort,descending,10000,1,24.201200,49995000
+Bubble Sort,descending,10000,2,24.265300,49995000
+Bubble Sort,descending,10000,3,23.917600,49995000
+Bubble Sort,descending,10000,4,23.674400,49995000
+Bubble Sort,descending,10000,5,24.102300,49995000
+Insertion Sort,descending,10000,1,20.219500,49995000
+Insertion Sort,descending,10000,2,20.289300,49995000
+Insertion Sort,descending,10000,3,19.708300,49995000
+Insertion Sort,descending,10000,4,19.570700,49995000
+Insertion Sort,descending,10000,5,19.650900,49995000
+Merge Sort,descending,10000,1,0.749300,64608
+Merge Sort,descending,10000,2,0.745000,64608
+Merge Sort,descending,10000,3,0.819400,64608
+Merge Sort,descending,10000,4,0.791900,64608
+Merge Sort,descending,10000,5,0.731200,64608
+Quick - First Pivot,descending,10000,1,27.158600,49995000
+Quick - First Pivot,descending,10000,2,24.328800,49995000
+Quick - First Pivot,descending,10000,3,24.100200,49995000
+Quick - First Pivot,descending,10000,4,24.193300,49995000
+Quick - First Pivot,descending,10000,5,24.043900,49995000
+Quick - Random Pivot,descending,10000,1,0.273700,149915
+Quick - Random Pivot,descending,10000,2,0.401000,154304
+Quick - Random Pivot,descending,10000,3,0.298000,154333
+Quick - Random Pivot,descending,10000,4,0.306100,147759
+Quick - Random Pivot,descending,10000,5,0.335500,153359
+Quick - Median of Three,descending,10000,1,5.711400,12505002
+Quick - Median of Three,descending,10000,2,6.252300,12505002
+Quick - Median of Three,descending,10000,3,6.250300,12505002
+Quick - Median of Three,descending,10000,4,6.125900,12505002
+Quick - Median of Three,descending,10000,5,7.805500,12505002
+Heap Sort,descending,10000,1,0.439200,226682
+Heap Sort,descending,10000,2,0.441100,226682
+Heap Sort,descending,10000,3,0.426400,226682
+Heap Sort,descending,10000,4,0.453900,226682
+Heap Sort,descending,10000,5,0.430800,226682
+Radix Sort,descending,10000,1,0.252600,0
+Radix Sort,descending,10000,2,0.245500,0
+Radix Sort,descending,10000,3,0.245800,0
+Radix Sort,descending,10000,4,0.253100,0
+Radix Sort,descending,10000,5,0.247500,0
+Merge Sort,descending,25000,1,2.229800,178756
+Merge Sort,descending,25000,2,2.159000,178756
+Merge Sort,descending,25000,3,2.451000,178756
+Merge Sort,descending,25000,4,2.076600,178756
+Merge Sort,descending,25000,5,2.017300,178756
+Quick - First Pivot,descending,25000,1,156.519600,312487500
+Quick - First Pivot,descending,25000,2,152.941000,312487500
+Quick - First Pivot,descending,25000,3,151.992000,312487500
+Quick - First Pivot,descending,25000,4,153.728400,312487500
+Quick - First Pivot,descending,25000,5,155.341100,312487500
+Quick - Random Pivot,descending,25000,1,0.881200,443910
+Quick - Random Pivot,descending,25000,2,0.947900,439427
+Quick - Random Pivot,descending,25000,3,0.745600,435423
+Quick - Random Pivot,descending,25000,4,0.741900,441491
+Quick - Random Pivot,descending,25000,5,0.741500,421930
+Quick - Median of Three,descending,25000,1,40.515400,78137502
+Quick - Median of Three,descending,25000,2,36.299400,78137502
+Quick - Median of Three,descending,25000,3,35.602700,78137502
+Quick - Median of Three,descending,25000,4,35.712100,78137502
+Quick - Median of Three,descending,25000,5,35.807300,78137502
+Heap Sort,descending,25000,1,1.107200,633719
+Heap Sort,descending,25000,2,1.123300,633719
+Heap Sort,descending,25000,3,1.099900,633719
+Heap Sort,descending,25000,4,1.106700,633719
+Heap Sort,descending,25000,5,1.115700,633719
+Radix Sort,descending,25000,1,0.732500,0
+Radix Sort,descending,25000,2,0.655000,0
+Radix Sort,descending,25000,3,0.705100,0
+Radix Sort,descending,25000,4,0.743700,0
+Radix Sort,descending,25000,5,0.741100,0
+Merge Sort,descending,50000,1,4.532300,382512
+Merge Sort,descending,50000,2,4.423200,382512
+Merge Sort,descending,50000,3,4.105500,382512
+Merge Sort,descending,50000,4,4.084400,382512
+Merge Sort,descending,50000,5,4.086800,382512
+Quick - First Pivot,descending,50000,1,608.244400,1249975000
+Quick - First Pivot,descending,50000,2,613.768900,1249975000
+Quick - First Pivot,descending,50000,3,603.513300,1249975000
+Quick - First Pivot,descending,50000,4,605.525600,1249975000
+Quick - First Pivot,descending,50000,5,618.072600,1249975000
+Quick - Random Pivot,descending,50000,1,1.441800,917680
+Quick - Random Pivot,descending,50000,2,1.464300,972483
+Quick - Random Pivot,descending,50000,3,1.447900,922183
+Quick - Random Pivot,descending,50000,4,1.418500,879374
+Quick - Random Pivot,descending,50000,5,1.413100,898301
+Quick - Median of Three,descending,50000,1,165.937800,312525002
+Quick - Median of Three,descending,50000,2,144.312100,312525002
+Quick - Median of Three,descending,50000,3,143.799000,312525002
+Quick - Median of Three,descending,50000,4,143.767900,312525002
+Quick - Median of Three,descending,50000,5,145.680300,312525002
+Heap Sort,descending,50000,1,2.419100,1366047
+Heap Sort,descending,50000,2,2.301800,1366047
+Heap Sort,descending,50000,3,2.346800,1366047
+Heap Sort,descending,50000,4,2.340800,1366047
+Heap Sort,descending,50000,5,2.594100,1366047
+Radix Sort,descending,50000,1,1.312900,0
+Radix Sort,descending,50000,2,1.350600,0
+Radix Sort,descending,50000,3,1.335200,0
+Radix Sort,descending,50000,4,1.337200,0
+Radix Sort,descending,50000,5,1.289400,0
+Merge Sort,descending,100000,1,8.637800,815024
+Merge Sort,descending,100000,2,7.948400,815024
+Merge Sort,descending,100000,3,7.851400,815024
+Merge Sort,descending,100000,4,7.993700,815024
+Merge Sort,descending,100000,5,7.662700,815024
+Quick - First Pivot,descending,100000,1,2444.853000,4999950000
+Quick - First Pivot,descending,100000,2,2497.916500,4999950000
+Quick - First Pivot,descending,100000,3,2419.797500,4999950000
+Quick - First Pivot,descending,100000,4,2422.480200,4999950000
+Quick - First Pivot,descending,100000,5,2429.294500,4999950000
+Quick - Random Pivot,descending,100000,1,2.984100,2072133
+Quick - Random Pivot,descending,100000,2,2.931000,2056973
+Quick - Random Pivot,descending,100000,3,2.896000,1989142
+Quick - Random Pivot,descending,100000,4,3.190300,2202170
+Quick - Random Pivot,descending,100000,5,3.021900,1929665
+Quick - Median of Three,descending,100000,1,573.003300,1250050002
+Quick - Median of Three,descending,100000,2,569.290900,1250050002
+Quick - Median of Three,descending,100000,3,572.242300,1250050002
+Quick - Median of Three,descending,100000,4,574.525200,1250050002
+Quick - Median of Three,descending,100000,5,572.453000,1250050002
+Heap Sort,descending,100000,1,4.759300,2926640
+Heap Sort,descending,100000,2,4.821500,2926640
+Heap Sort,descending,100000,3,4.878100,2926640
+Heap Sort,descending,100000,4,4.967300,2926640
+Heap Sort,descending,100000,5,4.993900,2926640
+Radix Sort,descending,100000,1,3.088800,0
+Radix Sort,descending,100000,2,3.083400,0
+Radix Sort,descending,100000,3,3.272800,0
+Radix Sort,descending,100000,4,3.218600,0
+Radix Sort,descending,100000,5,3.141700,0
+Merge Sort,descending,200000,1,16.115600,1730048
+Merge Sort,descending,200000,2,16.474500,1730048
+Merge Sort,descending,200000,3,15.436800,1730048
+Merge Sort,descending,200000,4,15.854900,1730048
+Merge Sort,descending,200000,5,16.003900,1730048
+Quick - First Pivot,descending,200000,1,9739.706200,19999900000
+Quick - First Pivot,descending,200000,2,9886.876000,19999900000
+Quick - First Pivot,descending,200000,3,9979.945900,19999900000
+Quick - First Pivot,descending,200000,4,9789.672900,19999900000
+Quick - First Pivot,descending,200000,5,9807.062300,19999900000
+Quick - Random Pivot,descending,200000,1,6.768500,4888735
+Quick - Random Pivot,descending,200000,2,6.682000,4678172
+Quick - Random Pivot,descending,200000,3,6.970900,4910863
+Quick - Random Pivot,descending,200000,4,6.903900,4764334
+Quick - Random Pivot,descending,200000,5,6.850400,4903058
+Quick - Median of Three,descending,200000,1,2319.931800,5000100002
+Quick - Median of Three,descending,200000,2,2354.713100,5000100002
+Quick - Median of Three,descending,200000,3,2363.528000,5000100002
+Quick - Median of Three,descending,200000,4,2386.516000,5000100002
+Quick - Median of Three,descending,200000,5,2406.743600,5000100002
+Heap Sort,descending,200000,1,10.976800,6256303
+Heap Sort,descending,200000,2,10.885400,6256303
+Heap Sort,descending,200000,3,10.756900,6256303
+Heap Sort,descending,200000,4,10.694700,6256303
+Heap Sort,descending,200000,5,11.088500,6256303
+Radix Sort,descending,200000,1,6.115500,0
+Radix Sort,descending,200000,2,6.010100,0
+Radix Sort,descending,200000,3,5.953200,0
+Radix Sort,descending,200000,4,6.034100,0
+Radix Sort,descending,200000,5,5.902400,0
+Merge Sort,descending,500000,1,44.884700,4692496
+Merge Sort,descending,500000,2,46.209200,4692496
+Merge Sort,descending,500000,3,45.232500,4692496
+Merge Sort,descending,500000,4,45.865300,4692496
+Merge Sort,descending,500000,5,45.322100,4692496
+Quick - First Pivot,descending,500000,1,61320.731600,124999750000
+Quick - First Pivot,descending,500000,2,60997.629500,124999750000
+Quick - First Pivot,descending,500000,3,60897.887200,124999750000
+Quick - First Pivot,descending,500000,4,60691.971000,124999750000
+Quick - First Pivot,descending,500000,5,60957.491700,124999750000
+Quick - Random Pivot,descending,500000,1,22.083700,17421453
+Quick - Random Pivot,descending,500000,2,21.897400,18412292
+Quick - Random Pivot,descending,500000,3,19.834900,15957263
+Quick - Random Pivot,descending,500000,4,21.271700,16410530
+Quick - Random Pivot,descending,500000,5,21.919000,17422149
+Quick - Median of Three,descending,500000,1,14653.257100,31250250002
+Quick - Median of Three,descending,500000,2,14552.506600,31250250002
+Quick - Median of Three,descending,500000,3,14388.892800,31250250002
+Quick - Median of Three,descending,500000,4,14379.727400,31250250002
+Quick - Median of Three,descending,500000,5,14463.993400,31250250002
+Heap Sort,descending,500000,1,28.026900,16977997
+Heap Sort,descending,500000,2,27.496900,16977997
+Heap Sort,descending,500000,3,27.508200,16977997
+Heap Sort,descending,500000,4,27.594000,16977997
+Heap Sort,descending,500000,5,26.263700,16977997
+Radix Sort,descending,500000,1,16.079600,0
+Radix Sort,descending,500000,2,16.794500,0
+Radix Sort,descending,500000,3,16.050900,0
+Radix Sort,descending,500000,4,16.088300,0
+Radix Sort,descending,500000,5,16.022800,0

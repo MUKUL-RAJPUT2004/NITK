@@ -1,0 +1,68 @@
+BABY-STEP RUN GUIDE
+
+1. Extract the ZIP.
+
+2. Open the folder "CS700_Assignment2_Final_2Lakh" in VS Code.
+
+3. Make sure the terminal is at the project ROOT:
+   ...\CS700_Assignment2_Final_2Lakh>
+
+   NOT:
+   ...\src>
+
+4. Check C++:
+   g++ --version
+
+5. Check Python:
+   python --version
+
+6. Install graph libraries ONCE:
+   python -m pip install pandas matplotlib
+
+7. You DO NOT need to generate inputs.
+   They are already saved in:
+   input/random/
+   input/sorted/
+   input/reverse/
+
+8. Compile:
+   g++ -std=c++17 -O2 .\src\main.cpp -o sorting.exe
+
+9. Run:
+   .\sorting.exe
+
+10. Wait until you see:
+    EXPERIMENT COMPLETE!
+
+11. Open:
+    results/results.csv
+    (The results/ folder is created automatically by sorting.exe.)
+
+12. Create graphs:
+    python plot_results.py
+
+13. Open:
+    graphs/
+
+FIRST GRAPHS TO CHECK
+---------------------
+quick_random_time.png
+quick_sorted_time.png
+quick_reverse_time.png
+
+These answer:
+Which QuickSort pivot strategy is best?
+
+Then:
+all_random_time.png
+all_sorted_time.png
+all_reverse_time.png
+
+These answer:
+How does the chosen QuickSort compare with the other algorithms?
+
+NOTE
+----
+Bubble and Insertion are intentionally not run on 100,000 and 200,000
+because their O(n^2) running time becomes impractical. This is a
+deliberate experimental choice, not a missing experiment.
